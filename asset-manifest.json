@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Ecommercial_Website_React/static/css/main.7176885d.chunk.css",
+    "main.js": "/Ecommercial_Website_React/static/js/main.d8e19e89.chunk.js",
+    "main.js.map": "/Ecommercial_Website_React/static/js/main.d8e19e89.chunk.js.map",
+    "runtime-main.js": "/Ecommercial_Website_React/static/js/runtime-main.5a1f22ea.js",
+    "runtime-main.js.map": "/Ecommercial_Website_React/static/js/runtime-main.5a1f22ea.js.map",
+    "static/js/2.74cedd21.chunk.js": "/Ecommercial_Website_React/static/js/2.74cedd21.chunk.js",
+    "static/js/2.74cedd21.chunk.js.map": "/Ecommercial_Website_React/static/js/2.74cedd21.chunk.js.map",
+    "static/js/3.61f4683c.chunk.js": "/Ecommercial_Website_React/static/js/3.61f4683c.chunk.js",
+    "static/js/3.61f4683c.chunk.js.map": "/Ecommercial_Website_React/static/js/3.61f4683c.chunk.js.map",
+    "index.html": "/Ecommercial_Website_React/index.html",
+    "static/css/main.7176885d.chunk.css.map": "/Ecommercial_Website_React/static/css/main.7176885d.chunk.css.map",
+    "static/js/2.74cedd21.chunk.js.LICENSE.txt": "/Ecommercial_Website_React/static/js/2.74cedd21.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a1f22ea.js",
+    "static/js/2.74cedd21.chunk.js",
+    "static/css/main.7176885d.chunk.css",
+    "static/js/main.d8e19e89.chunk.js"
+  ]
+}
