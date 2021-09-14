@@ -1,24 +1,31 @@
 import styled from "styled-components";
+import Navbar from "../components/Navbar";
 
 const Container = styled.div`
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;*/
+  height: 100vh; 
+  display: flex;
+  flex-direction:column;
+  position:relative;
+
   background: linear-gradient(
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
     url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
       center;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* background-size: cover; */
+
+  /* align-items: center; */
+  /* justify-content: center; */
 `;
 const Wrapper = styled.div`
+position:absolute;
+top:30%;
+left:30%;
   width: 40%;
   padding: 20px;
   background-color: white;
-
 `;
 
 const Title = styled.h1`
@@ -52,13 +59,14 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-
-
 const Register = () => {
   return (
     <Container>
+      <div>
+      <Navbar />
+      </div>
       <Wrapper>
-      <Title>CREATE AN ACCOUNT</Title>
+        <Title>CREATE AN ACCOUNT</Title>
         <Form>
           <Input placeholder="name" />
           <Input placeholder="last name" />

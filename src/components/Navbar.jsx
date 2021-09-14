@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import { Badge } from "@material-ui/core";
 import mobile from "../responsive";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   height: 60px;
@@ -36,6 +37,11 @@ const SearchContainer = styled.span`
   ${mobile({ marginLeft: "5px", padding: "5px" })}
 `;
 
+const Productlist = styled.div`
+margin-left: 20px;
+font-size: 1.2rem;
+`;
+
 const Input = styled.input`
   border: none;
   ${mobile({ width: "50px" })}
@@ -59,9 +65,9 @@ const Right = styled.div`
 `;
 
 const MenuItem = styled.div`
-  font-size: 14px;
+font-size: 1.2rem;
   cursor: pointer;
-  margin: 0 25px;
+  margin: 0 15px;
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
@@ -77,15 +83,24 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>SUMER.</Logo>
+          <Logo>
+            <Link to="/"> SUMER. </Link>
+          </Logo>
         </Center>
         <Right>
-          <MenuItem>Register</MenuItem>
-          <MenuItem>Sign In</MenuItem>
           <MenuItem>
-            <Badge badgeContent={2} color="primary">
-              <ShoppingCartOutlined />
-            </Badge>
+          <Link to="/ProductList">Product List</Link>
+          </MenuItem>
+          <MenuItem>
+            <Link to="/Register"> Register </Link>
+          </MenuItem>
+          <MenuItem>  <Link to="/Login"> Sign In </Link></MenuItem>
+          <MenuItem>
+            <Link to="/Cart">
+              <Badge badgeContent={2} color="primary">
+                <ShoppingCartOutlined/>
+              </Badge>
+            </Link>
           </MenuItem>
         </Right>
       </Wrapper>

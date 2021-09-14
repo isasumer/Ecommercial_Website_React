@@ -5,7 +5,10 @@ import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
-const Container = styled.div``;
+const Container = styled.div`
+display:flex;
+flex-direction:column;
+`;
 
 const Wrapper = styled.div`
   padding: 20px;
@@ -148,8 +151,8 @@ const Button = styled.button`
 const Cart = () => {
   return (
     <Container>
-      <Navbar />
       <Announcement />
+      <Navbar />
       <Wrapper>
         <Title>YOUR BAG</Title>
         <Top>
