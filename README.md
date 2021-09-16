@@ -5,3 +5,5 @@ you can find source files in master branch
 
 https://isasumer.github.io/Ecommercial_Website_React/
 
+![alt-text](https://github.com/isasumer/ReactTaskTracker/blob/main/task-tracker/screen-capture.gif)
+
